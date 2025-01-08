@@ -21,11 +21,17 @@
             display: flex;
         }
 
+        .card{
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
         .style_h3 {
             align-items: center;
             justify-content: center;
             display: flex;
             font-weight: bold;
+            text-shadow: 1px 1px 1px black;
         }
 
         .style_font {
@@ -46,18 +52,18 @@
                             <form action="login.php" method="POST">
                                 <div>
                                     <div class="mb-3">
-                                        <label class="style_font">Usuário</label>
+                                        <p class="style_font">Usuário</p>
                                         <input type="text" 
                                         name="usuario" 
-                                        class="form-control">
+                                        class="form-control" placeholder="Insira seu Usuário">
                                     </div>
                                 </div>
                                 <div>
                                     <div class="mb-3">
-                                    <label class="style_font">Senha</label>
+                                    <p class="style_font">Senha</p>
                                         <input type="password" 
                                         name="senha" 
-                                        class="form-control">
+                                        class="form-control" placeholder="Insira sua Senha">
                                     </div>
                                 </div>
                                 <div>
