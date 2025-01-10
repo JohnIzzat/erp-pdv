@@ -49,9 +49,9 @@ body {
     flex-direction: column;
 }
 
-#sidebar.expand {
-    width: 260px;
-    min-width: 260px;
+#sidebar.expand { /*Tamanho da distancia dos itens da sidebar*/
+    width: 210px;
+    min-width: 210px;
 }
 
 .toggle-btn {
@@ -66,7 +66,7 @@ body {
     color: #FFF;
 }
 
-.sidebar-logo {
+.sidebar-logo{
     margin: auto 0;
 }
 
@@ -101,7 +101,8 @@ a.sidebar-link {
     margin-right: .75rem;
 }
 
-a.sidebar-link:hover {
+/*Marcação dos itens da sidebar*/
+a.sidebar-link:hover { 
     background-color: rgba(255, 255, 255, .075);
     border-left: 3px solid #3b7ddd;
 }
@@ -120,13 +121,15 @@ a.sidebar-link:hover {
     display: none;
 }
 
-#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
+/*Sidebar aparece a lista dos itens quando a sidebar está fechada
+/*#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown { 
     display: block;
     max-height: 15em;
     width: 100%;
     opacity: 1;
-}
+}*/
 
+/*Efeito e seta pra cima na sidebar*/
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
     border: solid;
     border-width: 0 .075rem .075rem 0;
@@ -140,6 +143,7 @@ a.sidebar-link:hover {
     transition: all .2s ease-out;
 }
 
+/*Efeito e seta pra cima na sidebar*/
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
     transition: all .2s ease-out;
