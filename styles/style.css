@@ -81,8 +81,9 @@ body {
     display: none;
 }
 
+/*Ajuste da distancia dos itens da sidebar*/
 .sidebar-nav {
-    padding: 2rem 0;
+    padding: 0px 0;
     flex: 1 1 auto;
 }
 
