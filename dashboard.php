@@ -23,9 +23,6 @@ if (empty($_SESSION)) {
     </head>
     
     <body>
-        
-        <!--CSS no HTML porque algo está evitano que remova a decoration da tag A-->
-        <!---->
 
     <nav class="navbar navbar-principal">
         <div class="container-fluid">
@@ -128,7 +125,7 @@ if (empty($_SESSION)) {
             </div>
         </div>
     </div>
-    <!--SideBar-->
+    <!--///-->
     <script src="scripts/script.js"></script>
 </body>
 
