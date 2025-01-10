@@ -42,7 +42,7 @@ if (empty($_SESSION)) {
                 </button>
                 <div class="sidebar-logo">
                     <?php
-                    echo '<span style="color: white;">Olá, ' . $_SESSION["nome"] . '</span>';
+                    echo '<span style="color: white;">' . $_SESSION["nome"] . '</span>';
                     ?>
                 </div>
             </div>
