@@ -18,6 +18,15 @@ body {
 
 .wrapper {
     display: flex;
+    
+}
+
+.navbar-principal {
+    background-color: #2e2e2e;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
 }
 
 .main {
@@ -34,7 +43,7 @@ body {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #181717;
+    background-color: #2e2e2e;
     display: flex;
     flex-direction: column;
 }
@@ -104,7 +113,7 @@ a.sidebar-link:hover {
     position: absolute;
     top: 0;
     left: 70px;
-    background-color: #0e2238;
+    background-color: #2e2e2e;
     padding: 0;
     min-width: 15rem;
     display: none;

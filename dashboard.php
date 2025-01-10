@@ -27,11 +27,10 @@ if (empty($_SESSION)) {
         <!--CSS no HTML porque algo está evitano que remova a decoration da tag A-->
         <!---->
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-principal">
         <div class="container-fluid">
             <a class="navbar-brand">Sistema PDV</a>
             <?php
-            print "Olá, " . $_SESSION["nome"];
             print "<a href='logout.php' class='btn btn-danger'>Sair</a>";
             ?>
         </div>
@@ -45,7 +44,9 @@ if (empty($_SESSION)) {
                     <i class="lni lni-grid-alt"></i>
                 </button>
                 <div class="sidebar-logo">
-                    <a href="#" style="text-decoration: none;">Usuario</a>
+                    <?php
+                    echo '<span style="color: white;">Olá, ' . $_SESSION["nome"] . '</span>';
+                    ?>
                 </div>
             </div>
             <ul class="sidebar-nav">
