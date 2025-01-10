@@ -25,8 +25,9 @@ body {
     background-color: #2e2e2e;
 }
 
-.navbar-brand {
+.navbar-texto {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .main {

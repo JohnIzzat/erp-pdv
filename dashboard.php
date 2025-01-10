@@ -26,7 +26,7 @@ if (empty($_SESSION)) {
 
     <nav class="navbar navbar-principal">
         <div class="container-fluid">
-            <a class="navbar-brand">Sistema PDV</a>
+            <a class="navbar-texto">Sistema PDV</a>
             <?php
             print "<a href='logout.php' class='btn btn-danger'>Sair</a>";
             ?>
